@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A25E9858657E0F858F13C0F /* libPods-CloudSave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F053483FCC9356194ED47824 /* libPods-CloudSave.a */; };
+		E41F3EAE1C536E92006B626C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EAD1C536E92006B626C /* main.m */; };
+		E41F3EB11C536E92006B626C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EB01C536E92006B626C /* AppDelegate.m */; };
+		E41F3EB71C536E92006B626C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41F3EB51C536E92006B626C /* Main.storyboard */; };
+		E41F3EB91C536E92006B626C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41F3EB81C536E92006B626C /* Assets.xcassets */; };
+		E41F3EBC1C536E92006B626C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41F3EBA1C536E92006B626C /* LaunchScreen.storyboard */; };
+		E41F3ECE1C537894006B626C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3ECD1C537894006B626C /* SignUpViewController.m */; };
+		E41F3EE21C537F61006B626C /* XBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EE11C537F61006B626C /* XBMessage.m */; };
+		E41F3EE91C538D1F006B626C /* CSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EE81C538D1F006B626C /* CSAPIClient.m */; };
+		E41F3EEC1C539D01006B626C /* AccountRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EEB1C539D01006B626C /* AccountRequest.m */; };
+		E41F3EEF1C53A143006B626C /* FavorRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EEE1C53A143006B626C /* FavorRequest.m */; };
+		E41F3EF51C53A62F006B626C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F3EF41C53A62F006B626C /* RootViewController.m */; };
+		E44829EB1C53B70A008A1CB1 /* FavorListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E44829E81C53B70A008A1CB1 /* FavorListTableViewCell.m */; };
+		E44829EC1C53B70A008A1CB1 /* FavorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44829EA1C53B70A008A1CB1 /* FavorListViewController.m */; };
+		E44829F01C54910F008A1CB1 /* UIViewController+MBProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E44829EF1C54910F008A1CB1 /* UIViewController+MBProgress.m */; };
+		E44829F61C54B48E008A1CB1 /* FavorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44829F51C54B48E008A1CB1 /* FavorDetailViewController.m */; };
+		E488372F1C5DC7CA0074259B /* CSParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E488372E1C5DC7CA0074259B /* CSParentViewController.m */; };
+		E48837321C5DCBB90074259B /* VersionLogFile in Resources */ = {isa = PBXBuildFile; fileRef = E48837311C5DCBB90074259B /* VersionLogFile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C8B118A708142ABCDD45217 /* Pods-CloudSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudSave.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudSave/Pods-CloudSave.release.xcconfig"; sourceTree = "<group>"; };
+		8C0152A04FB5465C90F25960 /* Pods-CloudSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudSave/Pods-CloudSave.debug.xcconfig"; sourceTree = "<group>"; };
+		E41F3EA91C536E92006B626C /* CloudSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41F3EAD1C536E92006B626C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E41F3EAF1C536E92006B626C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E41F3EB01C536E92006B626C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E41F3EB61C536E92006B626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E41F3EB81C536E92006B626C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41F3EBB1C536E92006B626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E41F3EBD1C536E92006B626C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41F3ECC1C537894006B626C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		E41F3ECD1C537894006B626C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		E41F3EE01C537F61006B626C /* XBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMessage.h; sourceTree = "<group>"; };
+		E41F3EE11C537F61006B626C /* XBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMessage.m; sourceTree = "<group>"; };
+		E41F3EE71C538D1F006B626C /* CSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAPIClient.h; sourceTree = "<group>"; };
+		E41F3EE81C538D1F006B626C /* CSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAPIClient.m; sourceTree = "<group>"; };
+		E41F3EEA1C539D01006B626C /* AccountRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRequest.h; sourceTree = "<group>"; };
+		E41F3EEB1C539D01006B626C /* AccountRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRequest.m; sourceTree = "<group>"; };
+		E41F3EED1C53A143006B626C /* FavorRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorRequest.h; sourceTree = "<group>"; };
+		E41F3EEE1C53A143006B626C /* FavorRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorRequest.m; sourceTree = "<group>"; };
+		E41F3EF31C53A62F006B626C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E41F3EF41C53A62F006B626C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E44829E71C53B70A008A1CB1 /* FavorListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorListTableViewCell.h; sourceTree = "<group>"; };
+		E44829E81C53B70A008A1CB1 /* FavorListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorListTableViewCell.m; sourceTree = "<group>"; };
+		E44829E91C53B70A008A1CB1 /* FavorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorListViewController.h; sourceTree = "<group>"; };
+		E44829EA1C53B70A008A1CB1 /* FavorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorListViewController.m; sourceTree = "<group>"; };
+		E44829EE1C54910F008A1CB1 /* UIViewController+MBProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MBProgress.h"; sourceTree = "<group>"; };
+		E44829EF1C54910F008A1CB1 /* UIViewController+MBProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MBProgress.m"; sourceTree = "<group>"; };
+		E44829F31C54A521008A1CB1 /* CloudSave-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CloudSave-Prefix.pch"; sourceTree = "<group>"; };
+		E44829F41C54B48E008A1CB1 /* FavorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorDetailViewController.h; sourceTree = "<group>"; };
+		E44829F51C54B48E008A1CB1 /* FavorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorDetailViewController.m; sourceTree = "<group>"; };
+		E488372D1C5DC7CA0074259B /* CSParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSParentViewController.h; sourceTree = "<group>"; };
+		E488372E1C5DC7CA0074259B /* CSParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSParentViewController.m; sourceTree = "<group>"; };
+		E48837311C5DCBB90074259B /* VersionLogFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VersionLogFile; sourceTree = "<group>"; };
+		F053483FCC9356194ED47824 /* libPods-CloudSave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudSave.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41F3EA61C536E92006B626C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A25E9858657E0F858F13C0F /* libPods-CloudSave.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93A967FACEA8E6EE4D8B234A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F053483FCC9356194ED47824 /* libPods-CloudSave.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DBD641ADCD05288D97A5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C0152A04FB5465C90F25960 /* Pods-CloudSave.debug.xcconfig */,
+				2C8B118A708142ABCDD45217 /* Pods-CloudSave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E41F3EA01C536E92006B626C = {
+			isa = PBXGroup;
+			children = (
+				E41F3EAB1C536E92006B626C /* CloudSave */,
+				E41F3EAA1C536E92006B626C /* Products */,
+				D2DBD641ADCD05288D97A5E5 /* Pods */,
+				93A967FACEA8E6EE4D8B234A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E41F3EAA1C536E92006B626C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41F3EA91C536E92006B626C /* CloudSave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E41F3EAB1C536E92006B626C /* CloudSave */ = {
+			isa = PBXGroup;
+			children = (
+				E41F3EE31C5389F4006B626C /* Common */,
+				E41F3ED51C537EAF006B626C /* Network */,
+				E41F3EAF1C536E92006B626C /* AppDelegate.h */,
+				E41F3EB01C536E92006B626C /* AppDelegate.m */,
+				E41F3EF31C53A62F006B626C /* RootViewController.h */,
+				E41F3EF41C53A62F006B626C /* RootViewController.m */,
+				E488372D1C5DC7CA0074259B /* CSParentViewController.h */,
+				E488372E1C5DC7CA0074259B /* CSParentViewController.m */,
+				E44829E61C53B70A008A1CB1 /* Favor */,
+				E41F3EB51C536E92006B626C /* Main.storyboard */,
+				E41F3ECC1C537894006B626C /* SignUpViewController.h */,
+				E41F3ECD1C537894006B626C /* SignUpViewController.m */,
+				E41F3EDF1C537F61006B626C /* XBMessage */,
+				E41F3EB81C536E92006B626C /* Assets.xcassets */,
+				E41F3EBA1C536E92006B626C /* LaunchScreen.storyboard */,
+				E41F3EBD1C536E92006B626C /* Info.plist */,
+				E41F3EAC1C536E92006B626C /* Supporting Files */,
+			);
+			path = CloudSave;
+			sourceTree = "<group>";
+		};
+		E41F3EAC1C536E92006B626C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41F3EAD1C536E92006B626C /* main.m */,
+				E44829F31C54A521008A1CB1 /* CloudSave-Prefix.pch */,
+				E48837311C5DCBB90074259B /* VersionLogFile */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E41F3ED51C537EAF006B626C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E41F3EE71C538D1F006B626C /* CSAPIClient.h */,
+				E41F3EE81C538D1F006B626C /* CSAPIClient.m */,
+				E41F3EEA1C539D01006B626C /* AccountRequest.h */,
+				E41F3EEB1C539D01006B626C /* AccountRequest.m */,
+				E41F3EED1C53A143006B626C /* FavorRequest.h */,
+				E41F3EEE1C53A143006B626C /* FavorRequest.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E41F3EDF1C537F61006B626C /* XBMessage */ = {
+			isa = PBXGroup;
+			children = (
+				E41F3EE01C537F61006B626C /* XBMessage.h */,
+				E41F3EE11C537F61006B626C /* XBMessage.m */,
+			);
+			path = XBMessage;
+			sourceTree = "<group>";
+		};
+		E41F3EE31C5389F4006B626C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E44829EE1C54910F008A1CB1 /* UIViewController+MBProgress.h */,
+				E44829EF1C54910F008A1CB1 /* UIViewController+MBProgress.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E44829E61C53B70A008A1CB1 /* Favor */ = {
+			isa = PBXGroup;
+			children = (
+				E44829E71C53B70A008A1CB1 /* FavorListTableViewCell.h */,
+				E44829E81C53B70A008A1CB1 /* FavorListTableViewCell.m */,
+				E44829E91C53B70A008A1CB1 /* FavorListViewController.h */,
+				E44829EA1C53B70A008A1CB1 /* FavorListViewController.m */,
+				E44829F41C54B48E008A1CB1 /* FavorDetailViewController.h */,
+				E44829F51C54B48E008A1CB1 /* FavorDetailViewController.m */,
+			);
+			path = Favor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E41F3EA81C536E92006B626C /* CloudSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41F3EC01C536E92006B626C /* Build configuration list for PBXNativeTarget "CloudSave" */;
+			buildPhases = (
+				8F0C9D8D909E5ABBDD1C7142 /* Check Pods Manifest.lock */,
+				E41F3EA51C536E92006B626C /* Sources */,
+				E41F3EA61C536E92006B626C /* Frameworks */,
+				E41F3EA71C536E92006B626C /* Resources */,
+				DA923E629A75BD4D5D7C400A /* Embed Pods Frameworks */,
+				DE28894991923768C7B6EED6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudSave;
+			productName = CloudSave;
+			productReference = E41F3EA91C536E92006B626C /* CloudSave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41F3EA11C536E92006B626C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ron;
+				TargetAttributes = {
+					E41F3EA81C536E92006B626C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7YZU9ZP4GD;
+					};
+				};
+			};
+			buildConfigurationList = E41F3EA41C536E92006B626C /* Build configuration list for PBXProject "CloudSave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E41F3EA01C536E92006B626C;
+			productRefGroup = E41F3EAA1C536E92006B626C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E41F3EA81C536E92006B626C /* CloudSave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E41F3EA71C536E92006B626C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41F3EBC1C536E92006B626C /* LaunchScreen.storyboard in Resources */,
+				E41F3EB91C536E92006B626C /* Assets.xcassets in Resources */,
+				E48837321C5DCBB90074259B /* VersionLogFile in Resources */,
+				E41F3EB71C536E92006B626C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F0C9D8D909E5ABBDD1C7142 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA923E629A75BD4D5D7C400A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudSave/Pods-CloudSave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE28894991923768C7B6EED6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudSave/Pods-CloudSave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E41F3EA51C536E92006B626C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44829F01C54910F008A1CB1 /* UIViewController+MBProgress.m in Sources */,
+				E41F3EEF1C53A143006B626C /* FavorRequest.m in Sources */,
+				E44829F61C54B48E008A1CB1 /* FavorDetailViewController.m in Sources */,
+				E41F3EB11C536E92006B626C /* AppDelegate.m in Sources */,
+				E41F3ECE1C537894006B626C /* SignUpViewController.m in Sources */,
+				E41F3EF51C53A62F006B626C /* RootViewController.m in Sources */,
+				E488372F1C5DC7CA0074259B /* CSParentViewController.m in Sources */,
+				E41F3EE91C538D1F006B626C /* CSAPIClient.m in Sources */,
+				E44829EC1C53B70A008A1CB1 /* FavorListViewController.m in Sources */,
+				E44829EB1C53B70A008A1CB1 /* FavorListTableViewCell.m in Sources */,
+				E41F3EE21C537F61006B626C /* XBMessage.m in Sources */,
+				E41F3EAE1C536E92006B626C /* main.m in Sources */,
+				E41F3EEC1C539D01006B626C /* AccountRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E41F3EB51C536E92006B626C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41F3EB61C536E92006B626C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E41F3EBA1C536E92006B626C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41F3EBB1C536E92006B626C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E41F3EBE1C536E92006B626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E41F3EBF1C536E92006B626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E41F3EC11C536E92006B626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0152A04FB5465C90F25960 /* Pods-CloudSave.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "CloudSave/CloudSave-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = CloudSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenba.CloudSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";
+			};
+			name = Debug;
+		};
+		E41F3EC21C536E92006B626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8B118A708142ABCDD45217 /* Pods-CloudSave.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "CloudSave/CloudSave-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = CloudSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenba.CloudSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E41F3EA41C536E92006B626C /* Build configuration list for PBXProject "CloudSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41F3EBE1C536E92006B626C /* Debug */,
+				E41F3EBF1C536E92006B626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41F3EC01C536E92006B626C /* Build configuration list for PBXNativeTarget "CloudSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41F3EC11C536E92006B626C /* Debug */,
+				E41F3EC21C536E92006B626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E41F3EA11C536E92006B626C /* Project object */;
+}
